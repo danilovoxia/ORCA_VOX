@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ORCA_VOX/static/css/main.daba193c.css",
+    "main.js": "/ORCA_VOX/static/js/main.28b93ca8.js",
+    "index.html": "/ORCA_VOX/index.html",
+    "main.daba193c.css.map": "/ORCA_VOX/static/css/main.daba193c.css.map",
+    "main.28b93ca8.js.map": "/ORCA_VOX/static/js/main.28b93ca8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.daba193c.css",
+    "static/js/main.28b93ca8.js"
+  ]
+}
