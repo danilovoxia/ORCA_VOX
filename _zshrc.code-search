@@ -1,0 +1,19 @@
+# Query: .zshrc
+# ContextLines: 1
+
+# Configurações do Homebrew (geradas por 'brew shellenv')
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Configurações para tcl-tk (se necessário para algum software específico)
+export PATH="/opt/homebrew/opt/tcl-tk/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/tcl-tk/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/tcl-tk/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/tcl-tk/lib/pkgconfig"
+
+# Adiciona o diretório local de binários ao PATH (se você tiver scripts executáveis aqui)
+export PATH="$HOME/.local/bin:$PATH"
+
+# --- Configurações do NVM (Node Version Manager) ---
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
